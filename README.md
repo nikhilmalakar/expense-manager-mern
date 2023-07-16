@@ -1,36 +1,29 @@
-Expense Manager App - Built using MERN Stack
+<h1>Expense Manager App</h1>
 
-The Expense Manager App is a robust expense management system built using the MERN (MongoDB, Express.js, React.js, and Node.js) stack. It provides users with the ability to track, manage, and analyze their expenses effectively.
+📝 About The Project 
+-----------------------------------------------------
+The **Expense Manager App** is a robust expense management system built using the MERN (MongoDB, Express.js, React.js, and Node.js) stack. 
+It provides users with the ability to track, manage, and analyze their expenses effectively.
 
-This overview will guide you through the steps to set up and run the app on your local machine using npm.
+📼 How you can run it Locally
+-----------------------------------------------------
+*Step-1* - Clone the repository: git clone https://github.com/your-username/expense-manager-app.git
 
-Installation and Usage:
+*Step-2* - Navigate to the project directory: cd expense-manager-app
 
-Clone the repository: 
-git clone https://github.com/your-username/expense-manager-app.git
+*Step-3* - Install dependencies: npm install
 
-Navigate to the project directory: 
-cd expense-manager-app
+*Step-4* - Set up environment variables: Create a .env file in the root directory of the project. Example: MONGODB_URI=mongodb://localhost:27017/expense-manager-db 
 
-Install dependencies: 
-npm install
+*Step-5* - Start the client: npm start
 
-Set up environment variables: 
-Create a .env file in the root directory of the project. Add the required environment variables, such as MongoDB connection URL and JWT secret key. 
-Example: 
-MONGODB_URI=mongodb://localhost:27017/expense-manager-db 
-JWT_SECRET=your_secret_key
-
-Start the development server: 
-npm run dev
-
-Access the app:
-Open your web browser and visit http://localhost:3000 to access the Expense Manager App.
+*Step-6* - Access the app: Open your web browser and visit http://localhost:3000 to access the Expense Manager App.
 
 You will be directed to the landing page, where you can register a new account or log in if you already have one. Explore the app's functionality:
 
-Upon logging in, you will be redirected to the dashboard, where you can view your expense summary, and access various features. Use the navigation menu to add new expenses, edit or delete existing ones, and categorize your expenses. Generate reports and analyze your spending patterns through the provided analytics features.
+📝 Customize and extend
+-----------------------------------------------------
 
-Customize and extend: The Expense Manager App can serve as a foundation for further development and customization. Feel free to explore the codebase, add new features, or enhance existing ones to suit your specific requirements. Remember to stop the server by pressing Ctrl + C in the terminal when you're finished using the app.
+The Expense Manager App can serve as a foundation for further development and customization. Feel free to explore the codebase, add new features, or enhance existing ones to suit your specific requirements. Remember to stop the server by pressing Ctrl + C in the terminal when you're finished using the app.
 
-Enjoy managing your expenses efficiently with the Expense Manager App!
+**Enjoy managing your expenses efficiently with the Expense Manager App!**
